@@ -29,7 +29,7 @@ define( 'DB_USER', getenv('WP_DB_USER') );
 define( 'DB_PASSWORD', getenv('WP_DB_PASS') );
 
 /** Database hostname */
-define( 'DB_HOST', 'WP_DB_HOST' );
+define( 'DB_HOST', getenv('WP_DB_HOST') );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
